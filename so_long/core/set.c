@@ -6,7 +6,7 @@
 /*   By: thsanche <marvin@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/05 13:16:08 by thsanche          #+#    #+#             */
-/*   Updated: 2024/09/06 11:53:36 by thsanche         ###   ########.fr       */
+/*   Updated: 2024/09/06 13:35:21 by thsanche         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,11 +28,11 @@ void	set_img(t_data *data)
 {
 	data->img.height = 80;
 	data->img.width = 80;
-	data->img.floor = "./rsrc/floor_texture.xpm";
-	data->img.wall = "./rsrc/wall_texture.xpm";
-	data->img.collect = "./rsrc/collect.xpm";
-	data->img.player = "./rsrc/mario_player.xpm";
-	data->img.exit = "./rsrc/exit_texture.xpm";
+	data->img.floor = "./rsrc/floor80.xpm";
+	data->img.wall = "./rsrc/Burns80.xpm";
+	data->img.collect = "./rsrc/donut80.xpm";
+	data->img.player = "./rsrc/HomerTeteCorps80.xpm";
+	data->img.exit = "./rsrc/TV80.xpm";
 	data->img.img_wall = mlx_xpm_file_to_image(data->mlx_ptr, data->img.wall,
 			&(data->img.width), &(data->img.height));
 	data->img.img_floor = mlx_xpm_file_to_image(data->mlx_ptr, data->img.floor,
