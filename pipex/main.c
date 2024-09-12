@@ -6,7 +6,13 @@
 /*   By: thsanche <marvin@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/08 21:06:13 by thsanche          #+#    #+#             */
-/*   Updated: 2024/09/08 21:06:16 by thsanche         ###   ########.fr       */
+/*   Updated: 2024/09/09 08:29:54 by thsanche         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "./include/pipex.h"
+
+int	main(int argc, char **argv)
+{
+	return (0);
+}
